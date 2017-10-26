@@ -1,0 +1,20 @@
+
+body{
+    background-color:black;
+}
+.banner{
+    width:1200px;
+    margin:60px;
+    height:100px;
+    position:relative;
+}
+.headercontainer{
+
+
+}
+.logo{
+    text-height:50px;
+}
+nav{
+    color:white;
+}
