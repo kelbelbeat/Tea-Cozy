@@ -27,6 +27,9 @@ body{
     height:69px;
     top:0;
 }
+.headercontainer a{
+    color:white;
+}
 .headercontainer img{
     height:50px;
     margin-left: 10px;
