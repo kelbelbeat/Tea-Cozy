@@ -1,14 +1,16 @@
 
 body{
+    flex:block;
     background-color:black;
     font-family: Helvetica;
     color: seashell;
     font-size: 22px;
-    margin: 0 ;
     opacity:0.9;
-    width:1200px;
     text-align:center;
     z-index: 1;
+    width:1250px;
+
+
 }
 
 .headercontainer{
@@ -23,13 +25,11 @@ body{
     background-color:black;
     width:100%;
     height:69px;
-    flex-wrap:wrap;
-    margin:0 auto;
     top:0;
 }
 .headercontainer img{
     height:50px;
-    width: 167px;
+    margin-left: 10px;
 }
 nav{
     display:flex;
@@ -46,28 +46,39 @@ nav{
     justify-content:center;
     align-items:center;
     flex-flow:column;
-    max-width:1200px;
     height:770px;
+    width:1200px;
+    margin:auto;
 }
 .ourmission {
     background-color:black;
     width:1200px;
+    flex-wrap:wrap;
 }
 .locations-container{
     background-image:url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
     height:500px;
+    width:1200px;
+    padding-top:70px;
+    margin:auto
 }
 .tea-container {
     position:relative;
-    top:0px;
     width:1000px;
+    justify-content: center;
+    align-items: center;
+    background-repeat:no-repeat;
+    background-position: center;
+    margin:auto;
 }
 
 .tea-container img{
     width:300px;
     height:200px;
 }
-
+.box h4{
+    margin-top:10px;
+}
 .spacearoundcontainer {
     display:flex;
     justify-content: space-around;
@@ -114,8 +125,18 @@ nav{
 
 }
 .locations-container h2 {
-   margin-bottom:0px;
+   margin:0 auto;
 }
+
 .footer{
-    display:flex;
+    text-align: left;
+    margin-left:20px;
+}
+
+.endnote {
+    height:200px;
+}
+.endnote h2{
+    padding:10px;
+    margin:0px;
 }
